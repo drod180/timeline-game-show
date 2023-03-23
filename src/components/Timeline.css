@@ -1,0 +1,43 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.topline-container {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  width: 80%;
+  max-width: 80%;
+  flex-shrink: 0;
+}
+
+.topline-container img {
+  min-height:0;
+  min-width: 0; 
+  max-width: 5.05%;
+  flex-shrink: 1;
+  margin: 0 .25%;
+}
+
+.botline-container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-container {
+  width: 90%;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
